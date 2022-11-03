@@ -1,0 +1,33 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    width: 1200px;
+    padding: 1% 5%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+form.form-inline.my-2.my-lg-0 {
+    display: inline-flex;
+    float: right;
+}
+
+div#navbarSupportedContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.navbar-nav.mr-auto > li {
+    padding: 0 20px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+input.form-control.mr-sm-2 {
+    width: 325px;
+    margin-right: 5px;
+}
+button.btn.btn-outline-secondary.my-2.my-sm-0 {
+    border-color: white;
+    color: white;
+}

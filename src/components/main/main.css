@@ -1,0 +1,31 @@
+.container {
+    margin: auto;
+}
+.nft-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 355px;
+    height: 360px;
+    margin: 7px;
+    border-radius: 7%;
+    background: white;
+    color: #6c757d;
+    margin-top: 40px;
+}
+
+img.nft-img {
+    margin-bottom: 15px;
+}
