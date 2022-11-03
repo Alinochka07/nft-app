@@ -29,3 +29,9 @@
 img.nft-img {
     margin-bottom: 15px;
 }
+
+button.btn.btn-secondary.outline:hover {
+    background: #23a9be;
+    border: 1px solid #23a9be;
+    font-weight: 700;
+}

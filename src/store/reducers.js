@@ -5,6 +5,7 @@ import axios from "axios";
 
 const initalState = {
     nftData: [],
+   
     isLoading: false,
     isError: false,
     errorMsg: ""
@@ -23,6 +24,7 @@ function reducer(state = initalState, action) {
             return {
                 ...state,
                 nftData: action.nftData,
+               
                 isLoading: false,
                 isError: action.isError,
                 errorMsg: action.errorMsg
@@ -58,6 +60,7 @@ export const requestNFT = (baseUrl) => async dispatch => {
         dispatch({
             type: "RECEIVE_NFT_DATA",
             nftData: json.data.assets,
+            
             isError: false,
             errorMsg: ""
         });
@@ -65,6 +68,7 @@ export const requestNFT = (baseUrl) => async dispatch => {
         dispatch({
             type: "RECEIVE_NFT_DATA",
             nftData: [],
+            
             isError: true,
             errorMsg: e
         });
